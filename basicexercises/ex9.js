@@ -1,12 +1,13 @@
-function getSecondLargest(nums){
-nums.sort();
-for (let i =nums.length -2; i>=0; i--){
-    if(nums[i] != nums[i-1]){
-        // return arr[i];
+function getSecondLargest(nums) {
+  nums.sort((a,b)=>a-b);
+  let secondHighest = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] < nums[i + 1]) {
+      secondHighest = nums[i];
     }
-}
-return nums.length;
+  }
+  return secondHighest;
 }
 
-const arr=[1,4,5,2 ,2,3,6,8];
-console.log(getSecondLargest(arr));
+const nums = [2, 3, 6, 6, 5,8,3,12];
+console.log(getSecondLargest(nums));
