@@ -1,0 +1,182 @@
+[
+  {
+    "year": 2019,
+    "month": 5,
+    "persons": [
+      {
+        "name": "Sami Rocha",
+        "set": [
+          { "day": 7, "hasEmail": true },
+          { "day": 11, "hasEmail": true },
+          { "day": 26, "hasEmail": true },
+          { "day": 6, "hasEmail": true },
+          { "day": 10, "hasEmail": true },
+          { "day": 18, "hasEmail": true },
+          { "day": 24, "hasEmail": true },
+          { "day": 25, "hasEmail": true },
+          { "day": 27, "hasEmail": true },
+          { "day": 28, "hasEmail": true }
+        ]
+      },
+      { "name": "Arran Wise", "set": [{ "day": 11, "hasEmail": true }] },
+      { "name": "Aairah Nicholls", "set": [{ "day": 6, "hasEmail": true }] },
+      {
+        "name": "Aden Crane",
+        "set": [
+          { "day": 7, "hasEmail": true },
+          { "day": 10, "hasEmail": true },
+          { "day": 11, "hasEmail": true },
+          { "day": 13, "hasEmail": true },
+          { "day": 25, "hasEmail": true },
+          { "day": 26, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Joss Hills",
+        "set": [
+          { "day": 25, "hasEmail": true },
+          { "day": 26, "hasEmail": true }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "month": 6,
+    "persons": [
+      {
+        "name": "Sami Rocha",
+        "set": [
+          { "day": 2, "hasEmail": true },
+          { "day": 10, "hasEmail": true },
+          { "day": 11, "hasEmail": true },
+          { "day": 15, "hasEmail": true },
+          { "day": 16, "hasEmail": true },
+          { "day": 17, "hasEmail": true },
+          { "day": 18, "hasEmail": true },
+          { "day": 19, "hasEmail": true },
+          { "day": 20, "hasEmail": true },
+          { "day": 22, "hasEmail": true },
+          { "day": 23, "hasEmail": true },
+          { "day": 24, "hasEmail": true },
+          { "day": 25, "hasEmail": true },
+          { "day": 26, "hasEmail": true },
+          { "day": 30, "hasEmail": true }
+        ]
+      },
+      { "name": "Sneha Puckett", "set": [{ "day": 8, "hasEmail": true }] },
+      { "name": "Cai Whitehouse", "set": [{ "day": 8, "hasEmail": true }] },
+      {
+        "name": "Joss Hills",
+        "set": [
+          { "day": 2, "hasEmail": true },
+          { "day": 10, "hasEmail": true },
+          { "day": 16, "hasEmail": true },
+          { "day": 17, "hasEmail": true },
+          { "day": 20, "hasEmail": true },
+          { "day": 22, "hasEmail": true },
+          { "day": 26, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Aden Crane",
+        "set": [
+          { "day": 2, "hasEmail": true },
+          { "day": 10, "hasEmail": true },
+          { "day": 11, "hasEmail": true },
+          { "day": 16, "hasEmail": true },
+          { "day": 17, "hasEmail": true },
+          { "day": 18, "hasEmail": true },
+          { "day": 19, "hasEmail": true },
+          { "day": 20, "hasEmail": true },
+          { "day": 22, "hasEmail": true },
+          { "day": 23, "hasEmail": true },
+          { "day": 26, "hasEmail": true },
+          { "day": 30, "hasEmail": true }
+        ]
+      },
+      { "name": "Richie Oneal", "set": [{ "day": 2, "hasEmail": true }] },
+      { "name": "Karolina Medrano", "set": [{ "day": 18, "hasEmail": true }] },
+      { "name": "Jada Simons", "set": [{ "day": 26, "hasEmail": true }] },
+      { "name": "Mateo Rollins", "set": [{ "day": 26, "hasEmail": true }] },
+      { "name": "Kayden Lyon", "set": [{ "day": 30, "hasEmail": true }] }
+    ]
+  },
+  {
+    "year": 2019,
+    "month": 7,
+    "persons": [
+      {
+        "name": "Sami Rocha",
+        "set": [
+          { "day": 6, "hasEmail": true },
+          { "day": 2, "hasEmail": true },
+          { "day": 5, "hasEmail": true },
+          { "day": 8, "hasEmail": true },
+          { "day": 13, "hasEmail": true },
+          { "day": 28, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Joss Hills",
+        "set": [
+          { "day": 1, "hasEmail": true },
+          { "day": 5, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Kayden Lyon",
+        "set": [
+          { "day": 1, "hasEmail": true },
+          { "day": 5, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Aden Crane",
+        "set": [
+          { "day": 4, "hasEmail": true },
+          { "day": 6, "hasEmail": true },
+          { "day": 21, "hasEmail": true },
+          { "day": 23, "hasEmail": true },
+          { "day": 28, "hasEmail": true },
+          { "day": 29, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Arran Wise",
+        "set": [
+          { "day": 5, "hasEmail": true },
+          { "day": 8, "hasEmail": true }
+        ]
+      },
+      {
+        "name": "Estelle Cohen",
+        "set": [
+          { "day": 5, "hasEmail": true },
+          { "day": 7, "hasEmail": true },
+          { "day": 13, "hasEmail": true },
+          { "day": 14, "hasEmail": true },
+          { "day": 21, "hasEmail": true },
+          { "day": 22, "hasEmail": true }
+        ]
+      },
+      { "name": "Chelsea Alvarado", "set": [{ "day": 16, "hasEmail": true }] },
+      { "name": "Jasmine Burgess", "set": [{ "day": 28, "hasEmail": true }] }
+    ]
+  },
+  {
+    "year": 1970,
+    "month": 0,
+    "persons": [
+      { "name": "Maurice Garcia", "set": [{ "day": 1, "hasEmail": true }] }
+    ]
+  },
+  {
+    "year": 2019,
+    "month": 8,
+    "persons": [
+      { "name": "Estelle Cohen", "set": [{ "day": 5, "hasEmail": true }] },
+      { "name": "Aden Crane", "set": [{ "day": 6, "hasEmail": true }] }
+    ]
+  }
+]
