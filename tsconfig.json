@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": ["TS-exercises"],
+  "exclude": ["node_modules"]
+}
