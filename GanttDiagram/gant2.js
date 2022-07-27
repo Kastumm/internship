@@ -57,6 +57,13 @@ function main() {
     }
     set.addOrUpdatePerson(element.from, dateDay, true);
   });
-  console.log(JSON.stringify(monthSetArray));
+  // console.log(JSON.stringify(monthSetArray));
+  monthSetArray.forEach(element => {
+    console.log(element);
+  });
+  // console.log(monthSetArray);
+
+
+
 }
 main();
