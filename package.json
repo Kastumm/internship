@@ -1,9 +1,9 @@
 {
   "name": "internship",
   "version": "1.0.0",
-  "type": "module",
   "description": "This is a repository for internship!",
   "main": "index.js",
+  "type":"module",
   "directories": {
     "example": "examples"
   },
@@ -60,10 +60,12 @@
     "type": "git",
     "url": "git+https://github.com/Kastumm/internship.git"
   },
+
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kastumm/internship/issues"
   },
   "homepage": "https://github.com/Kastumm/internship#readme"
+  
 }

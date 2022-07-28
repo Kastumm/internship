@@ -4,6 +4,7 @@ class Person {
   constructor(name) {
     this.name = name;
     this.set = [];
+    this.activity = "";
   }
   addToSet(day, hasEmail) {
     let record = this.set.find((r) => r.day === day);
@@ -11,13 +12,13 @@ class Person {
       this.set.push(new Record(day, hasEmail));
     }
   }
-  }
-
+}
 
 class MonthSet {
   constructor(year, month) {
     this.year = year;
     this.month = month;
+    this.dates = this.getDaysInMonth(this.year, this.month); // Array of dates in the Month
     this.persons = []; //array of Person
   }
   addOrUpdatePerson(name, day, hasEmail) {
@@ -27,6 +28,14 @@ class MonthSet {
       this.persons.push(person);
     }
     person.addToSet(day, hasEmail);
+  }
+  getDaysInMonth(year, month) {
+    let t = new Date(year, month, 0).getDate();
+    const numberOfDaysArray = [];
+    for (let i = 1; i <= t; i++) {
+      numberOfDaysArray.push(i);
+    }
+    return numberOfDaysArray;
   }
 }
 
@@ -57,13 +66,50 @@ function main() {
     }
     set.addOrUpdatePerson(element.from, dateDay, true);
   });
-  // console.log(JSON.stringify(monthSetArray));
-  monthSetArray.forEach(element => {
-    console.log(element);
-  });
-  // console.log(monthSetArray);
 
+  function getDaysInMonth(year, month) {
+    return new Date(year, month, 0).getDate();
+  }
 
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 
+  for (let i = 0; i < monthSetArray.length; i++) {
+    const monthStringName = monthNames[monthSetArray[i].month];
+    console.log(
+      `${monthStringName} ${monthSetArray[i].year} ${monthSetArray[i].dates}`
+    );
+
+    ////
+    const persons = monthSetArray[i].persons;
+    const dates = monthSetArray[i].dates;
+
+    persons.forEach((person) => {
+      const records = person.set;
+
+      dates.forEach((date) => {
+        if (records.find((d) => d.day === date)) {
+          person.activity += "==";
+        } else {
+          person.activity += "--";
+        }
+      });
+
+      console.log(person.name, person.activity);
+    });
+  }
 }
+
 main();

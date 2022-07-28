@@ -57,9 +57,9 @@ for(let i=0;i<allDates.length;i++){
   goodDates.push({dateMonth, dateDay, dateYear });
 }
 
-for(let i=0;i<goodData.length;i++){
 
-}
+// for(let i=0;i<goodData.length;i++){
+// console.log(goodData[i]);
 
 
 
